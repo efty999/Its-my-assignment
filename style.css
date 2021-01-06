@@ -12,7 +12,9 @@ body{font-family: 'Lato', sans-serif;margin: 0px 80px 0px 80px;
 .red-highlighter{color: tomato;}
 h1{font-size: 60px;} 
 h4{font-size: 40px;}
-h2{font-size: 55px;font-weight: 800;}  
+h2{font-size: 55px;font-weight: 800;} 
+h6{ font-size: 22px;} 
+h5{font-size: 30px;}
 .pra-text{font-size: 18px;
         font-weight: 100;}
 .link{color: white;
@@ -36,8 +38,22 @@ article{padding-left: 100px; padding-top: 50px;}
     border: 1px solid gainsboro;  ;border-radius: 10px;}
      
 
-.text-half-width{float: left; width: 35% ;padding-left:3% ;margin-left: 2%; height: 350px; margin-top: 100px;}
-.link-position{margin-top: 150px;}
 
-.text-position{text-align: end;margin-bottom: 500px;width: 500px;}
-#no-four{background-image: url(images/Group_33094_1.png);background-repeat: no-repeat;background-size:900px 400px;padding: 100px;background-position: center;margin-top: 200px; background-position-x: center;
+#no-four{background-image: url(images/Group_33094_1.png);background-repeat: no-repeat;background-size:900px 200px;padding: 100px;background-position: center;margin-top: 200px; background-position-x: center;height:auto;}
+
+.text-half-width{float: left; width: 35% ;padding-left:3% ;margin-left: 20px; height: 350px;}
+
+.link-position{margin-left: 100px;}
+
+.text-position{text-align:center;width: 500px; margin-top: -90px;color: white;}
+.link-box{color: white;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,sandybrown,navajowhite);
+    padding: 20px 50px;
+    
+    border-radius: 5px;
+}   
+.last-center{  margin-top: 250px; text-align: center;padding:80px ;}
+
+.bottom-link ul{ display: inline-flex;list-style-type: none; margin-left: -40px;}
+.bottom-link ul li{ width:40px; margin:-10px 10px 10px -10px;  padding:0px 10px ;}
